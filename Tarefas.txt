@@ -1,0 +1,7 @@
+criar todas as páginas essenciais
+definir o conteúdo de algumas delas
+
+seria interessante colocar um tutorial na pagina de wifi, pra quem quiser acessar não precisar de internet.
+
+
+tbm é interessante colocar uma tabela com os horários de onibus, não um link, bem como o taxi.
