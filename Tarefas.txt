@@ -7,8 +7,7 @@ seria interessante colocar um tutorial na pagina de wifi, pra quem quiser acessa
 tbm é interessante colocar uma tabela com os horários de onibus, não um link, bem como o taxi.
 
 Principal
-
-
+Uma introdução com a icone de opções de menu para o restante do app.
 
 Atendimento médico
 colocar um map, e uma breve descrição dos serviços que cada um fornece
@@ -25,3 +24,8 @@ Mostra uma descrição do que cada campi oferece (cursos, projetos)
 Explicitar a diferença de cada um e suas localizações
 
 Uma ideia: festas em araranguá
+
+
+
+pra 25/09/2014
+criar um proj teste com 3 activity's onde uma é a splash, outra default, e outra que é aberta quando se clica em um botão.
