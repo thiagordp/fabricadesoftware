@@ -25,6 +25,4 @@ public class GradeDeImagem extends ImageView {
         super.onMeasure(widthMeasureSpec, heightMeasureSpec);
         setMeasuredDimension(getMeasuredWidth(), getMeasuredWidth());
     }
-
-
 }

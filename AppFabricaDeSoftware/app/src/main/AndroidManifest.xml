@@ -1,34 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest
-    package="br.ufsc.fabricadesoftware.appfabricadesoftware"
-    xmlns:android="http://schemas.android.com/apk/res/android">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.ufsc.fabricadesoftware.appfabricadesoftware" >
 
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme">
+        android:theme="@style/AppTheme" >
         <activity
             android:name=".principal.Principal"
-            android:label="@string/app_name">
-
+            android:label="@string/app_name" >
             <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
-
         <activity
-            android:name=".atendimento_medico.hospital.Hospital_Ararangua"
-            android:label="@string/title_hospital_ararangua">
-
-            <intent-filter>
-                <action android:name="android.intent.action.HOSPITALARARANGUA"
-                    />
-                <category android:name="android.intent.category.OPENABLE"/>
-            </intent-filter>
+            android:name=".locomocao.taxi.Taxi"
+            android:label="@string/title_taxi" >
+        </activity>
+        <activity
+            android:name=".atendimento_medico.upa.UpaArarangua"
+            android:label="@string/title_upa_ararangua" >
+        </activity>
+        <activity
+            android:name=".atendimento_medico.hospital.HospitalArarangua"
+            android:label="@string/title_hospital_ararangua" >
+        </activity>
+        <activity
+            android:name=".atendimento_medico.hospital.HospitalCriciuma"
+            android:label="@string/title_hospital_criciuma" >
+        </activity>
+        <activity
+            android:name=".sites_ufsc.moodle.Moodle"
+            android:label="@string/title_activity_moodle" >
+        </activity>
+        <activity
+            android:name=".sites_ufsc.ufsc_br.UfscBr"
+            android:label="@string/title_activity_ufsc_br" >
+        </activity>
+        <activity
+            android:name=".sites_ufsc.wifi_ufsc.WifiUfsc"
+            android:label="@string/title_activity_wifi_ufsc" >
+        </activity>
+        <activity
+            android:name=".unidades.jardim_avenidas.JardimIntro"
+            android:label="@string/title_activity_jardim_intro" >
+        </activity>
+        <activity
+            android:name=".unidades.jardim_avenidas.JardimLocal"
+            android:label="@string/title_activity_jardim_local" >
+        </activity>
+        <activity
+            android:name=".unidades.mato_alto.MatoAltoIntro"
+            android:label="@string/title_activity_mato_alto_intro" >
+        </activity>
+        <activity
+            android:name=".unidades.mato_alto.MatoAltoLocal"
+            android:label="@string/title_activity_mato_alto_local" >
         </activity>
     </application>
 

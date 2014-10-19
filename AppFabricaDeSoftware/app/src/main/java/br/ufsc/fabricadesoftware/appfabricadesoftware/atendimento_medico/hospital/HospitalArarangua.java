@@ -1,4 +1,4 @@
-package br.ufsc.fabricadesoftware.appfabricadesoftware.locomocao.taxi;
+package br.ufsc.fabricadesoftware.appfabricadesoftware.atendimento_medico.hospital;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -7,19 +7,19 @@ import android.view.MenuItem;
 
 import br.ufsc.fabricadesoftware.appfabricadesoftware.R;
 
-public class Taxi extends Activity {
+public class HospitalArarangua extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.taxi);
+        setContentView(R.layout.hospital_ararangua);
     }
 
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.taxii, menu);
+        getMenuInflater().inflate(R.menu.hospital_ararangua, menu);
         return true;
     }
 

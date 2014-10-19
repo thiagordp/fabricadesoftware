@@ -2,7 +2,8 @@
 
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
              android:layout_width="match_parent"
-             android:layout_height="match_parent">
+             android:layout_height="match_parent"
+             android:background="#000000">
 
     <br.ufsc.fabricadesoftware.appfabricadesoftware.principal.GradeDeImagem
         android:id="@+id/picture"
@@ -16,12 +17,12 @@
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
         android:background="#55000000"
+        android:gravity="center"
         android:paddingBottom="15dp"
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
         android:textAlignment="center"
-        android:gravity="center"
-        android:textSize="15dp"
         android:textColor="@android:color/white"
+        android:textSize="15dp"
         />
 </FrameLayout>

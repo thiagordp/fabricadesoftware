@@ -4,14 +4,14 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.GridView;
-import android.view.MenuItem;
 import android.widget.Toast;
 
 import br.ufsc.fabricadesoftware.appfabricadesoftware.R;
-import br.ufsc.fabricadesoftware.appfabricadesoftware.atendimento_medico.hospital.Hospital_Ararangua;
+import br.ufsc.fabricadesoftware.appfabricadesoftware.atendimento_medico.hospital.HospitalArarangua;
 
 
 public class Principal extends Activity {
@@ -41,7 +41,7 @@ public class Principal extends Activity {
                         }
 
                         case R.drawable.img2: {
-                            novaIntent = new Intent(Principal.this, Hospital_Ararangua.class);
+                            novaIntent = new Intent(Principal.this, HospitalArarangua.class);
                             startActivity(novaIntent);
                             break;
                         }

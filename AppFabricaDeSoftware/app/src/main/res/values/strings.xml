@@ -5,10 +5,19 @@
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_onibus">Onibus</string>
-
     <string name="title_section1">Section 1</string>
     <string name="title_section2">Section 2</string>
     <string name="title_section3">Section 3</string>
+    <string name="title_taxi">Taxi s em ARA</string>
+    <string name="title_upa_ararangua">Upa em Ararangua</string>
+    <string name="title_hospital_ararangua">Hospital de Araranguá</string>
+    <string name="title_hospital_criciuma">Hospital de Criciúma</string>
+    <string name="title_activity_moodle">Moodle</string>
+    <string name="title_activity_ufsc_br">UFSC</string>
+    <string name="title_activity_wifi_ufsc">Wifi UFSC</string>
+    <string name="title_activity_jardim_intro">UFSC - Jardim das Av.</string>
+    <string name="title_activity_jardim_local">Localização - Jardim das Av.</string>
+    <string name="title_activity_mato_alto_intro">"Mato Alto "</string>
+    <string name="title_activity_mato_alto_local">Mapa - Mato Alto</string>
 
-    <string name="title_hospital_ararangua">Araranguá</string>
 </resources>
