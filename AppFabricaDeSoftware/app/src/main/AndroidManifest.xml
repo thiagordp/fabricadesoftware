@@ -17,7 +17,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".locomocao.taxi.Taxi"
+            android:name=".taxi.Taxi"
             android:label="@string/title_taxi" >
         </activity>
         <activity
@@ -59,6 +59,26 @@
         <activity
             android:name=".unidades.mato_alto.MatoAltoLocal"
             android:label="@string/title_activity_mato_alto_local" >
+        </activity>
+        <activity
+            android:name=".imobiliarias.Imobiliarias_Principal"
+            android:label="@string/title_activity_imobiliarias__principal" >
+        </activity>
+        <activity
+            android:name=".unidades.UnidadesUfsc"
+            android:label="@string/title_activity_unidades_ufsc" >
+        </activity>
+        <activity
+            android:name=".atendimento_medico.AtendimentoMedico_Principal"
+            android:label="@string/title_activity_atendimento_medico" >
+        </activity>
+        <activity
+            android:name=".locomocao.onibus.Onibus"
+            android:label="@string/title_activity_onibus" >
+        </activity>
+        <activity
+            android:name=".locomocao.taxi.Taxi"
+            android:label="@string/title_activity_taxi" >
         </activity>
     </application>
 

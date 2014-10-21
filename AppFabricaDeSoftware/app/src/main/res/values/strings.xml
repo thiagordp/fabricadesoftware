@@ -19,5 +19,9 @@
     <string name="title_activity_jardim_local">Localização - Jardim das Av.</string>
     <string name="title_activity_mato_alto_intro">"Mato Alto "</string>
     <string name="title_activity_mato_alto_local">Mapa - Mato Alto</string>
+    <string name="title_activity_imobiliarias__principal">Imobiliarias_Principal</string>
+    <string name="title_activity_unidades_ufsc">Unidades da Ufsc</string>
+    <string name="title_activity_atendimento_medico">Atendimento Médico</string>
+    <string name="title_activity_taxi">Taxi</string>
 
 </resources>

@@ -11,7 +11,12 @@ import android.widget.GridView;
 import android.widget.Toast;
 
 import br.ufsc.fabricadesoftware.appfabricadesoftware.R;
-import br.ufsc.fabricadesoftware.appfabricadesoftware.atendimento_medico.hospital.HospitalArarangua;
+import br.ufsc.fabricadesoftware.appfabricadesoftware.atendimento_medico.AtendimentoMedico_Principal;
+import br.ufsc.fabricadesoftware.appfabricadesoftware.imobiliarias.Imobiliarias_Principal;
+import br.ufsc.fabricadesoftware.appfabricadesoftware.locomocao.onibus.Onibus;
+import br.ufsc.fabricadesoftware.appfabricadesoftware.locomocao.taxi.Taxi;
+import br.ufsc.fabricadesoftware.appfabricadesoftware.sites_ufsc.ufsc_br.UfscBr;
+import br.ufsc.fabricadesoftware.appfabricadesoftware.unidades.UnidadesUfsc;
 
 
 public class Principal extends Activity {
@@ -31,33 +36,47 @@ public class Principal extends Activity {
                                     int position, long id) {
                 try {
                     Intent novaIntent;
-                    Toast.makeText(Principal.this, position + "#Selected " + id + " " + R.drawable.img2,
-                            Toast.LENGTH_SHORT).show();
+                    /*Toast.makeText(Principal.this, position + "#Selected " + id + " " + R.drawable.img2,
+                            Toast.LENGTH_SHORT).show();*/
 
                     switch ((int) id) {
                         case R.drawable.img1: {
-
+                            novaIntent = new Intent(Principal.this, UfscBr.class);
+                            startActivity(novaIntent);
                             break;
                         }
 
                         case R.drawable.img2: {
-                            novaIntent = new Intent(Principal.this, HospitalArarangua.class);
+                            novaIntent = new Intent(Principal.this, UnidadesUfsc.class);
                             startActivity(novaIntent);
                             break;
                         }
 
                         case R.drawable.img3: {
+                            novaIntent = new Intent(Principal.this, AtendimentoMedico_Principal.class);
+                            startActivity(novaIntent);
                             break;
                         }
                         case R.drawable.img4: {
+                            novaIntent = new Intent(Principal.this, Imobiliarias_Principal.class);
+                            startActivity(novaIntent);
                             break;
                         }
                         case R.drawable.img5: {
+                            novaIntent = new Intent(Principal.this, Onibus.class);
+                            startActivity(novaIntent);
                             break;
                         }
                         case R.drawable.img6: {
+                            novaIntent = new Intent(Principal.this, Taxi.class);
+                            startActivity(novaIntent);
                             break;
                         }
+                        default: {
+                            Toast.makeText(Principal.this, "Clique inválido",
+                                    Toast.LENGTH_SHORT).show();
+                        }
+
                     }
                 } catch (Exception e) {
                     Toast t = Toast.makeText(Principal.this, e.getMessage(), Toast.LENGTH_SHORT);

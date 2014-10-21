@@ -53,7 +53,7 @@ public class Adapter extends BaseAdapter {
         TextView name;
 
         if (v == null) {
-            v = inflater.inflate(R.layout.griditem, viewGroup, false);
+            v = inflater.inflate(R.layout.griditem_principal, viewGroup, false);
             v.setTag(R.id.picture, v.findViewById(R.id.picture));
             v.setTag(R.id.text, v.findViewById(R.id.text));
         }
