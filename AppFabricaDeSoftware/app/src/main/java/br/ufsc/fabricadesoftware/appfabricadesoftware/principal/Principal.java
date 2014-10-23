@@ -13,6 +13,7 @@ import android.widget.Toast;
 import br.ufsc.fabricadesoftware.appfabricadesoftware.R;
 import br.ufsc.fabricadesoftware.appfabricadesoftware.atendimento_medico.AtendimentoMedico_Principal;
 import br.ufsc.fabricadesoftware.appfabricadesoftware.imobiliarias.Imobiliarias_Principal;
+import br.ufsc.fabricadesoftware.appfabricadesoftware.locomocao.LocomocaoPrincipal;
 import br.ufsc.fabricadesoftware.appfabricadesoftware.locomocao.onibus.Onibus;
 import br.ufsc.fabricadesoftware.appfabricadesoftware.locomocao.taxi.Taxi;
 import br.ufsc.fabricadesoftware.appfabricadesoftware.sites_ufsc.ufsc_br.UfscBr;
@@ -36,34 +37,29 @@ public class Principal extends Activity {
                                     int position, long id) {
                 try {
                     Intent novaIntent;
-                    /*Toast.makeText(Principal.this, position + "#Selected " + id + " " + R.drawable.img2,
-                            Toast.LENGTH_SHORT).show();*/
-
                     switch ((int) id) {
-                        case R.drawable.img1: {
+                        case R.drawable.ufsc_tile: {
                             novaIntent = new Intent(Principal.this, UfscBr.class);
                             startActivity(novaIntent);
                             break;
                         }
-
-                        case R.drawable.img2: {
-                            novaIntent = new Intent(Principal.this, UnidadesUfsc.class);
-                            startActivity(novaIntent);
-                            break;
-                        }
-
-                        case R.drawable.img3: {
+                        case R.drawable.atendimento_medico_tile: {
                             novaIntent = new Intent(Principal.this, AtendimentoMedico_Principal.class);
                             startActivity(novaIntent);
                             break;
                         }
-                        case R.drawable.img4: {
+                        case R.drawable.imobiliaria_tile: {
                             novaIntent = new Intent(Principal.this, Imobiliarias_Principal.class);
                             startActivity(novaIntent);
                             break;
                         }
-                        case R.drawable.img5: {
-                            novaIntent = new Intent(Principal.this, Onibus.class);
+                        case R.drawable.locomocao_tile: {
+                            novaIntent = new Intent(Principal.this, LocomocaoPrincipal.class);
+                            startActivity(novaIntent);
+                            break;
+                        }
+                        case R.drawable.location_tile: {
+                            novaIntent = new Intent(Principal.this, UnidadesUfsc.class);
                             startActivity(novaIntent);
                             break;
                         }
@@ -76,17 +72,14 @@ public class Principal extends Activity {
                             Toast.makeText(Principal.this, "Clique inválido",
                                     Toast.LENGTH_SHORT).show();
                         }
-
                     }
                 } catch (Exception e) {
                     Toast t = Toast.makeText(Principal.this, e.getMessage(), Toast.LENGTH_SHORT);
                     t.show();
                 }
-
             }
         });
     }
-
 
     /*Creates the option menu which is located at the top right of the screen*/
     @Override
@@ -95,7 +88,6 @@ public class Principal extends Activity {
         getMenuInflater().inflate(R.menu.principal, menu);
         return true;
     }
-
 
     /*Creates a list o option at the right top of screen*/
     @Override

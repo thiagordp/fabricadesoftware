@@ -80,6 +80,10 @@
             android:name=".locomocao.taxi.Taxi"
             android:label="@string/title_activity_taxi" >
         </activity>
+        <activity
+            android:name=".locomocao.LocomocaoPrincipal"
+            android:label="@string/title_activity_locomocao_principal" >
+        </activity>
     </application>
 
 </manifest>
