@@ -1,0 +1,15 @@
+Azul médio (fundo)
+31
+136
+161
+
+
+Azul escuro
+12 
+54
+64
+
+Azul Claro
+95
+188
+211

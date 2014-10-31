@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">App Fábrica de Software</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="app_name">Portal UFSC</string>
+    <string name="hello_world">Olá Mundo!</string>
     <string name="action_settings">Configurações</string>
     <string name="title_activity_onibus">Horários de Ônibus</string>
     <string name="title_section1">Section 1</string>
@@ -19,10 +19,12 @@
     <string name="title_activity_jardim_local">Localização - Jardim das Av.</string>
     <string name="title_activity_mato_alto_intro">"UFSC - Mato Alto"</string>
     <string name="title_activity_mato_alto_local">Mapa - Mato Alto</string>
-    <string name="title_activity_imobiliarias__principal">Imobiliarias</string>
+    <string name="title_activity_imobiliarias__principal">Imobiliárias</string>
     <string name="title_activity_unidades_ufsc">Unidades da Ufsc</string>
     <string name="title_activity_atendimento_medico">Atendimento Médico</string>
     <string name="title_activity_taxi">Taxi</string>
     <string name="title_activity_locomocao_principal">Locomoção</string>
+    <string name="action_homepage">Página Inicial</string>
+    <string name="action_voltar">Voltar</string>
 
 </resources>

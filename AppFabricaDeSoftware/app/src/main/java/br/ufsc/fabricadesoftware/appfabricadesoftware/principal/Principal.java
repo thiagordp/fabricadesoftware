@@ -14,8 +14,8 @@ import br.ufsc.fabricadesoftware.appfabricadesoftware.R;
 import br.ufsc.fabricadesoftware.appfabricadesoftware.atendimento_medico.AtendimentoMedico_Principal;
 import br.ufsc.fabricadesoftware.appfabricadesoftware.imobiliarias.Imobiliarias_Principal;
 import br.ufsc.fabricadesoftware.appfabricadesoftware.locomocao.LocomocaoPrincipal;
-import br.ufsc.fabricadesoftware.appfabricadesoftware.locomocao.onibus.Onibus;
 import br.ufsc.fabricadesoftware.appfabricadesoftware.locomocao.taxi.Taxi;
+import br.ufsc.fabricadesoftware.appfabricadesoftware.sites_ufsc.moodle.Moodle;
 import br.ufsc.fabricadesoftware.appfabricadesoftware.sites_ufsc.ufsc_br.UfscBr;
 import br.ufsc.fabricadesoftware.appfabricadesoftware.unidades.UnidadesUfsc;
 
@@ -96,9 +96,20 @@ public class Principal extends Activity {
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
-        if (id == R.id.action_settings) {
+        if (id == R.id.action_setting) {
+
+            Intent novaIntent = new Intent(Principal.this, Moodle.class);
+            startActivity(novaIntent);
+
+            return true;
+        } else if (id == R.id.action_homepage) {
+
+            Intent intent = new Intent(Principal.this, Principal.class);
+            startActivity(intent);
+
             return true;
         }
+
         return super.onOptionsItemSelected(item);
     }
 }

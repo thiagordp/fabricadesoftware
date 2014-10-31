@@ -1,11 +1,13 @@
 package br.ufsc.fabricadesoftware.appfabricadesoftware.atendimento_medico;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
 import br.ufsc.fabricadesoftware.appfabricadesoftware.R;
+import br.ufsc.fabricadesoftware.appfabricadesoftware.principal.Principal;
 
 public class AtendimentoMedico_Principal extends Activity {
 
@@ -30,6 +32,11 @@ public class AtendimentoMedico_Principal extends Activity {
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
         if (id == R.id.action_settings) {
+            return true;
+        } else if (id == R.id.action_voltar_atendimento) {
+            Intent intent = new Intent(AtendimentoMedico_Principal.this, Principal.class);
+            startActivity(intent);
+
             return true;
         }
         return super.onOptionsItemSelected(item);
